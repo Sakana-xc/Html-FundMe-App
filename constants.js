@@ -35,13 +35,6 @@ export const abi = [
     },
     {
         inputs: [],
-        name: "cheaperWithDraw",
-        outputs: [],
-        stateMutability: "payable",
-        type: "function",
-    },
-    {
-        inputs: [],
         name: "fund",
         outputs: [],
         stateMutability: "payable",
@@ -109,6 +102,13 @@ export const abi = [
             },
         ],
         stateMutability: "view",
+        type: "function",
+    },
+    {
+        inputs: [],
+        name: "withdraw",
+        outputs: [],
+        stateMutability: "payable",
         type: "function",
     },
     {
